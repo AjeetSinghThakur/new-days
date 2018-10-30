@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { UserService } from './user.service';
-import { Country } from '../view-models/country';
+import { Country } from '../view-models/Country';
 import { Observable,of } from 'rxjs';
 import { delay } from 'rxjs/internal/operators';
 import { tap} from 'rxjs/operators';
